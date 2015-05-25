@@ -1,0 +1,24 @@
+.card-header{
+	border: none;
+}
+.card-header .close{
+	top:0 !important;
+}
+.card-content .doctor{
+	  height: 150px;
+  border: 1px solid #C8C7C7;
+  width: 150px;
+  border-radius: 100px;
+
+}
+.card-content .doctor ~ div{
+	color:#C8C7C7;
+	  font-size: 12px;
+  text-align: center;
+  font-weight: 800;
+}
+.card-content .grid-8{
+	  font-size: 12px;
+  line-height: 25px;
+  font-weight: 500;
+}
