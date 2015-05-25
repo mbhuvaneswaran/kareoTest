@@ -7,7 +7,7 @@
 </head>
 <body ng-app="App">
 	<div class="container" ng-controller="ModalController">
-	<div class="lightbox open" ng-show="openModal">
+	<div class="lightbox open" ng-show="openModal" ng-click="closeModal($event)">
 	<div class="modal">
 		<div class="card" style="border:5px solid #3793B4">
 			<div class="card-header">
